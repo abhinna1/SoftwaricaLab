@@ -5,7 +5,8 @@ The remaining (the undivisible) part remains in the basket. How many apples will
 
 N = int(input('enter number of students'))
 K = int(input('enter number of apples'))
-applePerStudent = K/N
-remainingApples = K-applePerStudent
+
+applePerStudent = K//N
+remainingApples = K-(applePerStudent*N)
 print('each student gets ',applePerStudent)
 print('reamaing apples are ', remainingApples)
