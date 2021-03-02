@@ -4,3 +4,6 @@
  For example, if N = 150, then 150 minutes have passed since midnight -i.e now is 2:30 an, So, the program should print 2:30'''
 
 N = int(input('enter number of minutes passed since midnight'))
+hours =N//60
+minutes = N%60
+print(hours, 'hours and', minutes, 'minutes have passed since midnight')
