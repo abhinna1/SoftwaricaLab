@@ -1,7 +1,7 @@
-#WAP to find the sum of elements of list using while loop
-sum=0
-lst = [10,31,37,40,56,63,70]
-for i in range(0,7):
-    sum = lst[i]+sum
-print(sum)
-
+pi=22/7
+radius = float(input('enter radius of cylinder'))
+height = float(input('enter height of cylinder'))
+volume = pi*(radius**2)*height
+print('volume is ',volume)
+area = (2*pi*radius*height)+(2*pi*(radius**2))
+print('area is ', area)
