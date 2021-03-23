@@ -5,5 +5,5 @@
 
 N = int(input('enter number of minutes passed since midnight'))
 hours =N//60
-minutes = N%60
+sminutes = N%60
 print(hours, 'hours and', minutes, 'minutes have passed since midnight')
